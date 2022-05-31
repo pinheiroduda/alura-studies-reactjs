@@ -1,4 +1,4 @@
-import './style.scss'
+import './style.module.scss'
 
 export function List() {
   const tasks = [

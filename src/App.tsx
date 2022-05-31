@@ -1,7 +1,7 @@
 import { Form } from './components/Form';
 import { List } from './components/List';
 
-import './App.scss'
+import './App.module.scss'
 
 function App() {
   return (

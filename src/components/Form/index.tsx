@@ -1,6 +1,6 @@
 import { Button } from "../Button";
 
-import './style.scss'
+import './style.module.scss'
 
 export function Form() {
   return(
