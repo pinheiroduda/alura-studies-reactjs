@@ -14,7 +14,7 @@ export function List() {
       <h2>
         <ul>
           {tasks.map((task, index) => (
-            <li>
+            <li key={index}>
               <h3>{task.task}</h3>
               <span>{task.time}</span>
             </li>
