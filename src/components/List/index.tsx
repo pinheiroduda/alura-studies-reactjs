@@ -1,4 +1,4 @@
-import './style.module.scss'
+import style from './style.module.scss'
 
 export function List() {
   const tasks = [
@@ -12,11 +12,11 @@ export function List() {
   ]
 
   return(
-    <div className="listaTarefas">
+    <div className={style.listaTarefas}>
       <h2>
         <ul>
           {tasks.map((task, index) => (
-            <li key={index} className="item">
+            <li key={index} className={style.item}>
               <h3>{task.task}</h3>
               <span>{task.time}</span>
             </li>
