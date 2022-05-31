@@ -1,9 +1,11 @@
 import { Form } from './components/Form';
+import { List } from './components/List';
 
 function App() {
   return (
     <div>
-      <Form></Form>
+      <Form />
+      <List />
     </div>
   );
 }
