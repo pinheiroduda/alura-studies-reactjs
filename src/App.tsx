@@ -1,9 +1,11 @@
 import { Form } from './components/Form';
 import { List } from './components/List';
 
+import './App.scss'
+
 function App() {
   return (
-    <div>
+    <div className='AppStyle'>
       <Form />
       <List />
     </div>
