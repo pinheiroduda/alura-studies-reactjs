@@ -5,13 +5,14 @@ export function List() {
     {
       task: 'React',
       time: '02:00:00'
-    }, {
+    },
+    {
       task: 'JavaScript',
       time: '01:00:00'
     }
   ]
 
-  return(
+  return (
     <div className={style.listaTarefas}>
       <h2>
         <ul>

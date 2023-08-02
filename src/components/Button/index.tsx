@@ -1,7 +1,10 @@
+import React from 'react'
 import style from './style.module.scss'
 
-export function Button() {
-  return(
-      <button className={style.botao}>Salvar</button>
-  )
+class Button extends React.Component<{ children: string }> {
+  render() {
+    return <button className={style.botao}>{this.props.children}</button>
+  }
 }
+
+export default Button
